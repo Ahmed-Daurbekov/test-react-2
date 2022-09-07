@@ -1,19 +1,19 @@
-import Text from './Text';
 import './App.css';
+import Footer from './Pages/Footer';
+import Header from './Pages/Header';
+import Section from './Pages/Section';
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
-                header
+                <Header />
             </header>
             <section className='App-section'>
-                section
-                <Text />
+                <Section />
             </section>
             <footer className='App-footer'>
-                footer
-                foobar
+                <Footer />
             </footer>
         </div>
     );
